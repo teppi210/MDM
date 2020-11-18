@@ -10,3 +10,4 @@ mkdir tmp;
 mv com.apple.ManagedClient.* tmp/;
 mv com.apple.mdmclient.* tmp/;
 bless --folder /Volumes/Macintosh\ HD/System/Library/CoreServices --bootefi --create-snapshot;
+csrutil authenticated-root enable;
