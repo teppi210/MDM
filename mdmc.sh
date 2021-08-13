@@ -1,6 +1,6 @@
 csrutil authenticated-root disable;
 diskutil mount /Volumes/Catalina;
- Mount -uv /Volumes/Macintosh\ HD;	
+ Mount -uv /Volumes/Catalina;	
  cd /Volumes/Catalina/System/Library/LaunchAgents;
 mkdir tmp;
 mv com.apple.ManagedClientAgent.* tmp/;
